@@ -5,6 +5,12 @@ from pprint import pprint
 
 
 def parse_replay(file_path):
+    """
+
+    comment
+    :param file_path:
+    :return:
+    """
     result_blocks = dict()
 
     with open(file_path, 'rb') as f:
